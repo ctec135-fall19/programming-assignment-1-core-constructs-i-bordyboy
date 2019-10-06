@@ -1,6 +1,6 @@
 ﻿/*
-Author: <your name>
-Date:   <date>
+Author: Bogdan Livadaru 
+Date:   10/5/2019
 CTEC 135: Microsoft Software Development with C#
 
 <Solution Name>
@@ -41,6 +41,23 @@ namespace Prob1
 
             #region another code region
             // some code
+            #endregion
+
+            #region variable declarations
+
+            double firstTest = 0;
+            System.Double test = 0.0;
+            double secondTest = new double();
+            #endregion
+
+            #region variable initialization
+
+            bool first = 1;
+            byte second = 172;
+            short third = 29_321;
+            Console.WriteLine(third);
+
+
             #endregion
         }
     }
