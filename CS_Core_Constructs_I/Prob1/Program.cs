@@ -52,11 +52,26 @@ namespace Prob1
 
             #region variable initialization
 
-            bool first = 1;
+            bool first = true;
             byte second = 172;
             short third = 29_321;
-            Console.WriteLine(third);
+            int fourth = 2_147_482_648;
+            long fifth = 8_777_555_444_333_222_111;
+            char sixth = 'a';
+            float seventh = 2.441231221312312f;
+            double eight = 0.0;
+            decimal ninth = 3.7m;
+            string tenth = "almost";
+            Object eleventh = "okay";
+            Console.WriteLine(eleventh);
 
+
+
+            #endregion
+
+            #region Max/Min values
+
+            Console.WriteLine("The maximum value of a double is: " + Double.MaxValue + " and the smalles value of a double is: " + Double.MinValue);
 
             #endregion
         }
