@@ -53,15 +53,25 @@ namespace Prob1
             #region variable initialization
 
             bool first = true;
+            Console.WriteLine(first);
             byte second = 172;
+            Console.WriteLine(second);
             short third = 29_321;
+            Console.WriteLine("{0:c}", third);
             int fourth = 2_147_482_648;
+            Console.WriteLine(fourth);
             long fifth = 8_777_555_444_333_222_111;
+            Console.WriteLine(fifth);
             char sixth = 'a';
+            Console.WriteLine(sixth);
             float seventh = 2.441231221312312f;
+            Console.WriteLine(seventh);
             double eight = 0.0;
+            Console.WriteLine(eight);
             decimal ninth = 3.7m;
+            Console.WriteLine(ninth);
             string tenth = "almost";
+            Console.WriteLine(tenth);
             Object eleventh = "okay";
             Console.WriteLine(eleventh);
 
